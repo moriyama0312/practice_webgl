@@ -95,7 +95,7 @@ window.addEventListener('load', () => {
 				return;
 		}
 	
-		gl.shaderSource(shder, scriptElement.text);
+		gl.shaderSource(shader, scriptElement.text);
 	
 		gl.compileShader(shader);
 	
